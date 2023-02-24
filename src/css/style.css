@@ -1,0 +1,26 @@
+:root {
+  --clr-primary-400: #13183f;
+  --clr-primary-300: #44496e;
+  --clr-primary-200: #f74780;
+  --clr-primary-100: #ffa7c3;
+  --clr-neutral-400: #ffffff;
+  --clr-neutral-300: #f0f1ff;
+  --clr-neutral-200: #83869a;
+
+  --clr-gradient-400: #ff6f48;
+  --clr-gradient-300: #f02aa6;
+  --clr-gradient-200: #4851ff;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: 400;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
