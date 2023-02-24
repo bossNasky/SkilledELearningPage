@@ -14,7 +14,133 @@
     />
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <div class="wrapper">
+        <header class="header">
+          <a href="#" class="logo">
+            <img
+              src="./src/assets/logo-dark.svg"
+              alt="skilled"
+              class="logo-image"
+            />
+          </a>
+          <a href="#" class="link link--started link--black"> Get Started </a>
+        </header>
+        <main>
+          <section class="hero">
+            <h1 class="heading__primary">
+              Maximize skill, <span>minimize budget</span>
+            </h1>
+            <p class="description">
+              Our modern courses across a range of in-demand skills will give
+              you the knowledge you need to live the life you want.
+            </p>
+            <a href="#" class="link link--started link--orange">
+              Get Started
+            </a>
+          </section>
+          <picture>
+            <source
+              srcset="./src/assets/image-hero-mobile.png"
+              media="(max-width:49rem)"
+            />
+            <source
+              srcset="./src/assets/image-hero-tablet.png"
+              media="(max-width:62.5rem)"
+            />
+            <img
+              src="./src/assets/image-hero-desktop.png"
+              alt="Woman drink coffee, statistics"
+              class="image"
+            />
+          </picture>
+          <div class="gallery">
+            <div class="gallery__item gallery__item--start">
+              <h2 class="heading__secondary">
+                Check out our most popular courses!
+              </h2>
+            </div>
+            <div class="gallery__item">
+              <img
+                src="./src/assets/icon-animation.svg"
+                alt=""
+                class="gallery__image"
+              />
+              <h3 class="heading__tertiary">Animation</h3>
+              <p class="description">
+                Learn the latest animation techniques to create stunning motion
+                design and captivate your audience.
+              </p>
+              <a href="#" class="link link--gallery">Get Started</a>
+            </div>
+            <div class="gallery__item">
+              <img
+                src="./src/assets/icon-design.svg"
+                alt=""
+                class="gallery__image"
+              />
+              <h3 class="heading__tertiary">Design</h3>
+              <p class="description">
+                Create beautiful, usable interfaces to help shape the future of
+                how the web looks.
+              </p>
+              <a href="#" class="link link--gallery">Get Started</a>
+            </div>
+            <div class="gallery__item">
+              <img
+                src="./src/assets/icon-photography.svg"
+                alt=""
+                class="gallery__image"
+              />
+              <h3 class="heading__tertiary">Photography</h3>
+              <p class="description">
+                Explore critical fundamentals like lighting, composition, and
+                focus to capture exceptional photos.
+              </p>
+              <a href="#" class="link link--gallery">Get Started</a>
+            </div>
+            <div class="gallery__item">
+              <img
+                src="./src/assets/icon-crypto.svg"
+                alt=""
+                class="gallery__image"
+              />
+              <h3 class="heading__tertiary">Crypto</h3>
+              <p class="description">
+                All you need to know to get started investing in crypto. Go from
+                beginner to advanced with this 54 hour course.
+              </p>
+              <a href="#" class="link link--gallery">Get Started</a>
+            </div>
+            <div class="gallery__item">
+              <img
+                src="./src/assets/icon-business.svg"
+                alt=""
+                class="gallery__image"
+              />
+              <h3 class="heading__tertiary">Business</h3>
+              <p class="description">
+                A step-by-step playbook to help you start, scale, and sustain
+                your business without outside investment.
+              </p>
+              <a href="#" class="link link--gallery">Get Started</a>
+            </div>
+          </div>
+        </main>
+      </div>
+      <footer class="footer">
+        <div class="wrapper">
+          <a href="#" class="logo">
+            <img
+              src="./src/assets/logo-light.svg"
+              alt="skilled"
+              class="logo-image"
+            />
+          </a>
+          <a href="#" class="link link--started link--footer"> Get Started </a>
+        </div>
+      </footer>
+    </div>
     <script type="module" src="/src/js/main.js"></script>
   </body>
 </html>
